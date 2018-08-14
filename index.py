@@ -3,7 +3,7 @@ import youtube_dl
 import asyncio
 from discord.ext import commands
 
-TOKEN = 'NDczNTUxMDQ0MjUzNTgxMzMy.DkU_Ug.5z0ny-CyaF7VOeyS7ATvMAFEtQc'
+TOKEN = '***'
 client = commands.Bot(command_prefix = '.')
 client.remove_command('help')
 extensions = ['music', 'general']
